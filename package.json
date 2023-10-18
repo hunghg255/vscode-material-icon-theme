@@ -1,8 +1,8 @@
 {
-  "name": "material-icon-theme",
-  "displayName": "Material Icon Theme",
+  "name": "material-icon-theme-h25",
+  "displayName": "Material Icon Theme Custom",
   "description": "Material Design Icons for Visual Studio Code",
-  "version": "4.31.0",
+  "version": "4.31.1",
   "scripts": {
     "build": "npm run compile:dev && npm run generateJson",
     "check": "ts-node ./src/scripts/icons/checks",
@@ -25,26 +25,9 @@
     "version": "npm run changelog && git add CHANGELOG.md",
     "vscode:prepublish": "npm run lint && npm run compile && npm run package-web"
   },
-  "publisher": "PKief",
-  "author": {
-    "name": "Philipp Kief",
-    "email": "philipp.kief@gmx.de",
-    "url": "https://pkief.github.io"
-  },
-  "funding": "https://github.com/sponsors/PKief",
-  "sponsor": {
-    "url": "https://github.com/sponsors/PKief"
-  },
+  "publisher": "hunghg255",
   "engines": {
     "vscode": "^1.51.0"
-  },
-  "homepage": "https://github.com/PKief/vscode-material-icon-theme/blob/main/README.md",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/PKief/vscode-material-icon-theme.git"
-  },
-  "bugs": {
-    "url": "https://github.com/PKief/vscode-material-icon-theme/issues"
   },
   "icon": "logo.png",
   "galleryBanner": {
