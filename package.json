@@ -2,7 +2,7 @@
   "name": "material-icon-theme-h25",
   "displayName": "Material Icon Theme Custom",
   "description": "Material Design Icons for Visual Studio Code",
-  "version": "4.31.1",
+  "version": "4.31.2",
   "scripts": {
     "build": "npm run compile:dev && npm run generateJson",
     "check": "ts-node ./src/scripts/icons/checks",
