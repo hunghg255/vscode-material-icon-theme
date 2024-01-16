@@ -11,8 +11,8 @@ export const getConfig = (section?: string) => {
 
 /** Get list of configuration entries of package.json */
 export const getConfigProperties = (): { [config: string]: unknown } => {
-  return extensions.getExtension('PKief.material-icon-theme')?.packageJSON
-    ?.contributes?.configuration?.properties;
+  return extensions.getExtension('hunghg255.material-icon-theme-h25')
+    ?.packageJSON?.contributes?.configuration?.properties;
 };
 
 /** Update configuration of vs code. */

@@ -2,7 +2,7 @@
   "name": "material-icon-theme-h25",
   "displayName": "Material Icon Theme Custom",
   "description": "Material Design Icons for Visual Studio Code",
-  "version": "4.31.2",
+  "version": "4.31.5",
   "scripts": {
     "build": "npm run compile:dev && npm run generateJson",
     "check": "ts-node ./src/scripts/icons/checks",
@@ -142,6 +142,7 @@
             "%configuration.activeIconPack.vue%",
             "%configuration.activeIconPack.vue_vuex%",
             "%configuration.activeIconPack.nest%",
+            "%configuration.activeIconPack.next%",
             "%configuration.activeIconPack.none%"
           ],
           "enum": [
@@ -153,6 +154,7 @@
             "vue",
             "vue_vuex",
             "nest",
+            "next",
             "none"
           ]
         },

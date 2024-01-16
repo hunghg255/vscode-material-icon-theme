@@ -22,6 +22,7 @@
   "configuration.activeIconPack.vue": "Ikony pro Vue.",
   "configuration.activeIconPack.vue_vuex": "Ikony pro Vue a Vuex.",
   "configuration.activeIconPack.nest": "Ikony pro NestJS.",
+  "configuration.activeIconPack.next": "Ikony pro Nextjs.",
   "configuration.activeIconPack.none": "Není povolena žádná sada ikon.",
   "configuration.folders.theme": "Nastavit typ ikon složek.",
   "configuration.folders.theme.specific": "Vybrat ikony konkrétní složky.",
